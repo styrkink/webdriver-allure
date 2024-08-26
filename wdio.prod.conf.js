@@ -8,7 +8,7 @@ exports.config = {
     ],
     exclude: [
     ],
-    maxInstances: 1,
+    maxInstances: 10,
     capabilities: [{
         browserName: process.env.BROWSER || 'chrome',
         'goog:chromeOptions': {

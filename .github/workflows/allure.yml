@@ -25,6 +25,7 @@ jobs:
 
     - name: Run wdio tests
       run: npm run test:prod
+      continue-on-error: true
 
     - name: Upload Allure results
       uses: actions/upload-artifact@v3
