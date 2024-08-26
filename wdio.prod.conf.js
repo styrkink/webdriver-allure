@@ -10,7 +10,16 @@ exports.config = {
     ],
     maxInstances: 1,
     capabilities: [{
-        browserName: process.env.BROWSER || 'chrome'
+        browserName: process.env.BROWSER || 'chrome',
+        'goog:chromeOptions': {
+          args: [
+              '--headless',
+              '--disable-gpu',
+              '--no-sandbox',
+              '--disable-dev-shm-usage',
+              '--window-size=1280,800'
+          ]
+      }
     }],
     logLevel: 'info',
     bail: 0,
