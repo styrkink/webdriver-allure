@@ -1,5 +1,5 @@
 {
-  "name": "testluxequality",
+  "name": "webdriver_allure_tests",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "test:login": "wdio run wdio.prod.conf.js --spec test/specs/login.spec.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "styrkink",
   "license": "ISC",
   "description": "",
   "devDependencies": {
