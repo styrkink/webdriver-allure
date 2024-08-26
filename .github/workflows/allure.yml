@@ -24,7 +24,7 @@ jobs:
       run: npm ci
 
     - name: Run wdio tests
-      run: npm run test:prod
+      run: npx wdio run wdio.conf.js
 
     - name: Upload Allure results
       uses: actions/upload-artifact@v3
