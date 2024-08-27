@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '.env.stage' });
+require('dotenv').config({ path: 'cofigs/.env.stage' });
 
 
 exports.config = {

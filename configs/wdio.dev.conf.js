@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '.env.dev' });
+require('dotenv').config({ path: 'configs/.env.dev' });
 
 exports.config = {
     baseUrl: process.env.BASE_URL,

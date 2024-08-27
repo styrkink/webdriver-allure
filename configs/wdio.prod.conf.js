@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '.env.prod' });
+require('dotenv').config({ path: 'configs/.env.prod' });
 
 exports.config = {
     baseUrl: process.env.BASE_URL || 'https://www.saucedemo.com',
