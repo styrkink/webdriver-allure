@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".btn.btn_secondary.btn_small.btn_inventory"
+}

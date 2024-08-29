@@ -1,0 +1,289 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : ".home.runner.work.webdriver-allure.webdriver-allure.test.specs",
+    "children" : [ {
+      "name" : "login.spec.js",
+      "children" : [ {
+        "name" : "Should login with valid credentials",
+        "uid" : "5d810f1215e95bde",
+        "parentUid" : "44f8549353942062b453512e895230a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940120770,
+          "stop" : 1724940128832,
+          "duration" : 8062
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should not login with invalid password",
+        "uid" : "68b7bdc99228b9f2",
+        "parentUid" : "44f8549353942062b453512e895230a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940122654,
+          "stop" : 1724940128832,
+          "duration" : 6178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should not login with invalid login",
+        "uid" : "dd90cd91842b0378",
+        "parentUid" : "44f8549353942062b453512e895230a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940123875,
+          "stop" : 1724940128832,
+          "duration" : 4957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should not login with locked out user",
+        "uid" : "7863f7156cd1f873",
+        "parentUid" : "44f8549353942062b453512e895230a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940124923,
+          "stop" : 1724940124927,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should logout. Return to login page, login and password fields are empty",
+        "uid" : "bc853ad21409b87c",
+        "parentUid" : "44f8549353942062b453512e895230a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940126354,
+          "stop" : 1724940126362,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      } ],
+      "uid" : "login.spec.js"
+    }, {
+      "name" : "cart.spec.js",
+      "children" : [ {
+        "name" : "Should remove item from cart from inventory page",
+        "uid" : "ff79425e2e469555",
+        "parentUid" : "dcd90dcbd843ff796a829b03dc0f5e02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940120776,
+          "stop" : 1724940136665,
+          "duration" : 15889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should remove item from cart from cart page",
+        "uid" : "3e4d19f916604d3a",
+        "parentUid" : "dcd90dcbd843ff796a829b03dc0f5e02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940123385,
+          "stop" : 1724940136665,
+          "duration" : 13280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should save the cart after logout",
+        "uid" : "9a63f88f03df6854",
+        "parentUid" : "dcd90dcbd843ff796a829b03dc0f5e02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940124989,
+          "stop" : 1724940136665,
+          "duration" : 11676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      } ],
+      "uid" : "cart.spec.js"
+    }, {
+      "name" : "inventory.spec.js",
+      "children" : [ {
+        "name" : "Should sort by price (low to high)",
+        "uid" : "50aaea5fa7582d8a",
+        "parentUid" : "dd0b8c898a7c08ca87c7df778e2565ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940121360,
+          "stop" : 1724940129875,
+          "duration" : 8515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should sort by price (high to low)",
+        "uid" : "59a9f59f3ec6280f",
+        "parentUid" : "dd0b8c898a7c08ca87c7df778e2565ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940123803,
+          "stop" : 1724940129875,
+          "duration" : 6072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should sort by name (A to Z)",
+        "uid" : "78c369a8b27ceac1",
+        "parentUid" : "dd0b8c898a7c08ca87c7df778e2565ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940125617,
+          "stop" : 1724940129874,
+          "duration" : 4257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should sort by name (Z to A)",
+        "uid" : "a1c5c9ef6836bf7c",
+        "parentUid" : "dd0b8c898a7c08ca87c7df778e2565ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940127411,
+          "stop" : 1724940129874,
+          "duration" : 2463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should open an item page",
+        "uid" : "11f6e32841b3c7a",
+        "parentUid" : "dd0b8c898a7c08ca87c7df778e2565ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940128864,
+          "stop" : 1724940129874,
+          "duration" : 1010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should return to the inventory page",
+        "uid" : "f7b30c82ad8928a7",
+        "parentUid" : "dd0b8c898a7c08ca87c7df778e2565ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940129389,
+          "stop" : 1724940129874,
+          "duration" : 485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      } ],
+      "uid" : "inventory.spec.js"
+    }, {
+      "name" : "checkout.spec.js",
+      "children" : [ {
+        "name" : "Should complete a checkout with valid data",
+        "uid" : "21b804886b4509d",
+        "parentUid" : "33b44e7e7e6e8ce1c829dbdeab9fdff0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940121780,
+          "stop" : 1724940136895,
+          "duration" : 15115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Could not go to checkout with empty cart, error message \"Cart is empty\" is displayed",
+        "uid" : "a3cdae2abdd29072",
+        "parentUid" : "33b44e7e7e6e8ce1c829dbdeab9fdff0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940125111,
+          "stop" : 1724940136895,
+          "duration" : 11784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      } ],
+      "uid" : "checkout.spec.js"
+    }, {
+      "name" : "links.spec.js",
+      "children" : [ {
+        "name" : "Should open twitter in new tab",
+        "uid" : "69072a8e0fda4f5a",
+        "parentUid" : "2fe392be0302a5bde27f2d85a84694f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940122858,
+          "stop" : 1724940134331,
+          "duration" : 11473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should open facebook in new tab",
+        "uid" : "41a8cfa64852d5ce",
+        "parentUid" : "2fe392be0302a5bde27f2d85a84694f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940126785,
+          "stop" : 1724940126835,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should open Linkedin in new tab",
+        "uid" : "f2f4bcafc37ce47c",
+        "parentUid" : "2fe392be0302a5bde27f2d85a84694f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940128811,
+          "stop" : 1724940128866,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      }, {
+        "name" : "Should redirect to the saucelabs.com",
+        "uid" : "58342ec3248af0e4",
+        "parentUid" : "2fe392be0302a5bde27f2d85a84694f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724940130672,
+          "stop" : 1724940130777,
+          "duration" : 105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-128.0.6613.84" ]
+      } ],
+      "uid" : "links.spec.js"
+    } ],
+    "uid" : ".home.runner.work.webdriver-allure.webdriver-allure.test.specs"
+  } ],
+  "name" : "packages"
+}
