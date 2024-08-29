@@ -4,7 +4,7 @@ exports.config = {
     baseUrl: process.env.BASE_URL || 'https://www.saucedemo.com',
     runner: 'local',
     specs: [
-        './test/specs/**/*.js'
+        '../test/specs/**/*.js'
     ],
     exclude: [
     ],
